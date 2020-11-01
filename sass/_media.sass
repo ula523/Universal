@@ -1,0 +1,43 @@
+@media ( max-width:1200px )
+  .container
+    max-width: 960px
+  .header
+    &__input
+      width: 200px
+  .logo
+    &__image
+      width: 143px
+      height: auto
+@media  ( max-width: 992px )
+  .container
+    max-width: 95%
+  .header
+    &-wrapper
+      flex-wrap: wrap
+    &__menu
+      margin-top: 15px
+      order: 1
+      flex-basis: 100%
+    &__list
+      justify-content: center
+      margin: auto
+@media  ( max-width: 600px )
+  .header
+    &__menu
+      display: none
+    &__form
+      display: none
+    &__button
+      &-menu
+        display: flex
+        flex-direction: column
+        justify-content: space-around
+        align-items: center
+        height: 16px
+        border-radius: 4px
+        border: none
+        background-color: $dark
+      &-line
+        height: 1px
+        width: 16px
+        background-color: $white
