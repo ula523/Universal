@@ -4,6 +4,7 @@
   .header
     &__input
       width: 200px
+
   .logo
     &__image
       width: 143px
@@ -41,3 +42,31 @@
         height: 1px
         width: 16px
         background-color: $white
+    &__modal
+      &-dialog
+        align-items: center
+        position: absolute
+        top: 70px
+        left: 0
+        right: 0
+        background-color: $dark
+        padding-bottom: 20px
+        text-align: center
+        display: block
+        &--visible
+          display: block
+      &-item
+        margin-bottom: 20px
+
+      &-link
+        margin-bottom: 30px
+        font-family: "Lato-Black"
+        font-style: normal
+        font-weight: 900
+        font-size: 14px
+        line-height: 20px
+        text-align: right
+        color: $white
+
+        &:hover
+          color: $blue
