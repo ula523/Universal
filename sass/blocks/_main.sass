@@ -16,8 +16,10 @@
     padding: 55px 55px 100px 55px
     background-image: url(../img/main.jpg)
     background-repeat: no-repeat
-    width: 877px
-    border-radius: 20px 0px 0px 20px
+    background-size: cover
+    background-position-x: center
+    width: 100%
+    border-radius: 10px 0px 0px 10px
   &__js
     font-family: "Lato-Black"
     font-style: normal
@@ -29,31 +31,34 @@
     color: #4592FF
   &__title
     margin-top: 20px
-    margin-bottom: 20px
+    margin-bottom: 50px
     font-family: 'Roboto Slab', serif
     font-style: normal
     font-weight: bold
     font-size: 40px
     line-height: 50px
     color: $white
-    max-width: 598px
+    max-width: 566px
   &__button
-    padding: 10px 45px 10px 25px
+    padding: 10px 43px 10px 20px
     background-image: url(../img/Arrow.svg)
     background-repeat: no-repeat
     background-position-y: center
     background-position-x: 85%
   &__recomendation
     background-color: $white
-    border-radius: 0px 20px 20px 0px
+    border-radius: 0px 10px 10px 0px
   &-block
     width: 263px
-    height: 99px
+    height: 97px
     padding-left: 25px
-    padding-right: 25px
+    padding-right: 39px
     display: flex
     flex-direction: column
     justify-content: center
+    &:hover
+      background-color: $light-white
+      cursor: pointer
     &__subtitle
       font-family: "Lato-Black"
       font-style: normal
@@ -64,10 +69,6 @@
       align-items: center
       letter-spacing: 0.5px
       text-transform: uppercase
-      &:nth-child(1)
-        color: $bluegreen
-      &:nth-child(2n)
-        color: $greyblue
 
     &__title
       font-family: "Lato-Black"
@@ -99,7 +100,7 @@
 .user
   display: flex
   align-items: center
-  margin-bottom: 149px
+  margin-bottom: 143px
   &__image
     width: 45px
     height: 45px
@@ -125,3 +126,14 @@
     line-height: 15px
     color: $white
     opacity: 0.4
+.css
+  color: $bluegreen
+.js
+  color: $greyblue
+.html
+  color: $purple
+.design
+  color: $orange
+  margin-top: -17px
+.css-green
+  color: $green
