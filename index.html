@@ -63,9 +63,29 @@
           <span class="user__profession">Разработчик</span>
         </div>
       </div>
-      <div class="main-wrapper">
-        <span class="main__js">Javascript</span>
-        <h1 class="main__title">Расширение Chrome защищает от атак</h1>
+      <div id="css" class="main-wrapper main-wrapper--active">
+        <span class="main__js css">css</span>
+        <h1 class="main__title">Как использовать CSS float после того, как вышел Flexbox</h1>
+        <button class="main__button button">Читать далее</button>
+      </div>
+      <div id="js" class="main-wrapper">
+        <span class="main__js js">javascript</span>
+        <h1 class="main__title">На каком стандарте писать скрипты, если я фрилансер</h1>
+        <button class="main__button button">Читать далее</button>
+      </div>
+      <div id="html" class="main-wrapper">
+        <span class="main__js html">html</span>
+        <h1 class="main__title">Правильно вставляем картинку на сайт для Retina дисплея</h1>
+        <button class="main__button button">Читать далее</button>
+      </div>
+      <div id="design" class="main-wrapper">
+        <span class="main__js design">Web design</span>
+        <h1 class="main__title">ТОП-10 плагинов для Figma</h1>
+        <button class="main__button button">Читать далее</button>
+      </div>
+      <div id="css-green" class="main-wrapper">
+        <span class="main__js css-green">CSS</span>
+        <h1 class="main__title">Возможности CSS Grid Layout , которые уже можно применять</h1>
         <button class="main__button button">Читать далее</button>
       </div>
     </div>
@@ -75,27 +95,27 @@
         <h3 class="main-block__title">Рекомендуем</h3>
       </div>
       <hr class="line">
-      <div class="main-block">
+      <div data-target="#css" class="main-block main-block--active">
         <span class="main-block__subtitle css">css</span>
         <p class="main-block__text">Как использовать CSS float после того, как вышел Flexbox</p>
       </div>
       <hr class="line">
-      <div class="main-block">
+      <div data-target="#js" class="main-block">
         <span class="main-block__subtitle js">javascript</span>
         <p class="main-block__text">На каком стандарте писать скрипты, если я фрилансер</p>
       </div>
       <hr class="line">
-      <div class="main-block">
+      <div  data-target="#html" class="main-block">
         <span class="main-block__subtitle html">html</span>
         <p class="main-block__text">Правильно вставляем картинку на сайт для Retina дисплея</p>
       </div>
       <hr class="line">
-      <div class="main-block">
+      <div data-target="#design" class="main-block">
         <span class="main-block__subtitle design">Web design</span>
         <p class="main-block__text">ТОП-10 плагинов для Figma</p>
       </div>
       <hr class="line">
-      <div class="main-block">
+      <div  data-target="#css-green" class="main-block">
         <span class="main-block__subtitle css-green">CSS</span>
         <p class="main-block__text">Возможности CSS Grid Layout , которые уже можно применять</p>
       </div>
@@ -103,6 +123,28 @@
     <!--/.main__recomendation-->
   </section>
   <!--/.main-->
+  <section class="info">
+    <div class="info__block">
+      <h3 class="info__subtitle">25 способов настроить слайдер </h3>
+      <img src="img/info-1.jpg" alt="25 способов настроить слайдер" class="info__image">
+    </div>
+    <img src="img/line.svg" class="info__line" alt="">
+    <div class="info__block">
+      <h3 class="info__subtitle">Главные фишки фрилансера </h3>
+      <img src="img/info-2.jpg" alt="Главные фишки фрилансера" class="info__image">
+    </div>
+    <img src="img/line.svg" class="info__line" alt="">
+    <div class="info__block">
+      <h3 class="info__subtitle">Техника управлеия временем “Помодоро” </h3>
+      <img src="img/info-3.jpg" alt="Техника управлеия  временем “Помодоро”" class="info__image">
+    </div>
+    <img src="img/line.svg" class="info__line" alt="">
+    <div class="info__block">
+      <h3 class="info__subtitle">Что нужно знать о Git и GitHub </h3>
+      <img src="img/info-4.jpg" alt="Что нужно знать о Git и GitHub" class="info__image">
+    </div>
+  </section>
+  <!-- /.info -->
   <script src="js/jquery-3.5.1.min.js"></script>
   <script src="js/main.js"></script>
 </body>
